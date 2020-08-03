@@ -6,7 +6,7 @@ use App\Url;
 class UrlSeeder extends Seeder
 {
     /**
-     * Seed with a few urls.
+     * Run the database seeds.
      *
      * @return void
      */
@@ -19,6 +19,11 @@ class UrlSeeder extends Seeder
         $url = new Url();
         $url->url = 'https://blogs.unity3d.com/2020/07/14/10-ways-to-speed-up-your-programming-workflows-in-unity-with-visual-studio-2019/';
         $url->slug = '10waysworkflows';
+        $url->save();
+
+        $url = new Url();
+        $url->url = 'https://unity.com/products';
+        $url->slug = 'Products';
         $url->save();
     }
 }

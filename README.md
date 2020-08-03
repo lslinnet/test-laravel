@@ -35,9 +35,11 @@ php artisan db:seed
 
 ## Development
 
+
+
 ## Used packages
 * GraphQL package included
   * [nuwave/lighthouse](https://github.com/nuwave/lighthouse)
   * [Tutorial](https://lighthouse-php.com/tutorial/#what-is-graphql)
   * [Documentation](https://lighthouse-php.com/master/getting-started/installation.html)
-* 
+

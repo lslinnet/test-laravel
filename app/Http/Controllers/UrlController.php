@@ -9,6 +9,6 @@ class UrlController extends Controller
 {
     public function index() {
         $urls = Url::query()->orderBy('id', 'desc')->get();
-        return view("index", ['urls' => $urls]);
+        return view("url.index", ['urls' => $urls]);
     }
 }
